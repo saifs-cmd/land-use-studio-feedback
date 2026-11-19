@@ -1,0 +1,38 @@
+name: Feature request
+description: Suggest a new capability or workflow improvement
+title: "[Feature] "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Suggestions are public. Avoid posting confidential project or site information.
+  - type: dropdown
+    id: workspace
+    attributes:
+      label: Workspace
+      options:
+        - Land Use Analysis (LUA)
+        - GIS to CAD (GTC)
+        - Both / General
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What would this improve?
+      description: Describe the task or problem.
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Proposed feature
+      description: Explain how you would like it to work.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives or examples
+      description: Optional
