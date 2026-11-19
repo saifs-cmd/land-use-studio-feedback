@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Public issue list
+    url: https://github.com/saifs-cmd/land-use-studio-feedback/issues
+    about: Check if the issue was already reported before opening a new one.
